@@ -1,0 +1,44 @@
+.info-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 550px;
+    height: 50px;
+    border: solid  #CECFCF;
+}
+
+.iifo-item__counter {
+    color:  #A6A5A5;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.info-item__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info__btn {
+    cursor: pointer;
+    border: none;
+    color: #2D3EA0;
+    padding: 3px 20px;
+}
+
+.info__btn_check {
+    cursor: pointer;
+    padding: 3px 20px;
+    color: #fff;
+    background-color: #2D3EA0;
+    border: none;
+}
+
+.info__btn_clear {
+    cursor: pointer;
+    border: none;
+    color: #A6A5A5;
+    padding: 3px 10px;
+}

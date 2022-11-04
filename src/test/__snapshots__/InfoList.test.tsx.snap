@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InfoList /> should render successfully and match snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="info-item"
+    >
+      <p
+        class="iifo-item__counter"
+      >
+        0
+         item left
+      </p>
+      <div
+        class="info-item__button"
+      >
+        <button
+          class="info__btn_check"
+          id="2"
+        >
+          all
+        </button>
+        <button
+          class="info__btn"
+          id="1"
+        >
+          active
+        </button>
+        <button
+          class="info__btn"
+          id="0"
+        >
+          completed
+        </button>
+      </div>
+      <button
+        class="info__btn_clear"
+      >
+        Clear completed
+      </button>
+    </div>
+  </div>
+</div>
+`;

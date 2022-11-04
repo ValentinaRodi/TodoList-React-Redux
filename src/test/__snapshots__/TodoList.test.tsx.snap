@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoList /> should render successfully and match snapshot 1`] = `
+<div>
+  <div>
+    <h1
+      class="title"
+    >
+      todos
+    </h1>
+    <div
+      class="addItem"
+    >
+      <input
+        class="addItem__input"
+        data-testid="test-id"
+        placeholder="What needs to be done?"
+        value=""
+      />
+      <button
+        class="addItem__btn"
+      >
+        ➕
+      </button>
+    </div>
+  </div>
+</div>
+`;

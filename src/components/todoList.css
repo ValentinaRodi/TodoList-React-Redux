@@ -1,0 +1,38 @@
+.title {
+    text-align: center;
+    color: #2D3EA0;
+    margin: 20px 0;
+}
+
+.addItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 550px;
+    height: 50px;
+    background-color: #fff;
+    border: solid  #A6A5A5;
+}
+
+.addItem__input {
+    margin-left: 50px;
+    width: 450px;
+    border: none;
+}
+
+.addItem__input::placeholder {
+    font-style: italic;
+    color:  #A6A5A5;
+}
+
+.addItem__input:focus {
+    outline: none;
+}
+
+.addItem__btn {
+    margin-right: 10px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
